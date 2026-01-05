@@ -11,4 +11,5 @@ void funC(int n);
 
 void funD(int n);
 
+int nestedRecursion(int n);
 #endif // !RECURSION
