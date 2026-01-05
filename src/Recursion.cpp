@@ -6,7 +6,7 @@ int j;
 /**
  * @brief
  *
- * @param n
+ * @param
  */
 void fun(int n) {
     if (n > 0) {
@@ -52,6 +52,6 @@ int nestedRecursion(int n) {
     if (n > 100) {
         return n - 10;
     } else {
+        return nestedRecursion(nestedRecursion(n + 11));
     }
-    return nestedRecursion(nestedRecursion(n + 11));
 }
