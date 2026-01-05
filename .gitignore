@@ -1,0 +1,10 @@
+
+.git
+
+.idea
+
+.cache
+
+build/
+
+out/
