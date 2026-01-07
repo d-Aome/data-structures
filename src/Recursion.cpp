@@ -55,3 +55,22 @@ int nestedRecursion(int n) {
         return nestedRecursion(nestedRecursion(n + 11));
     }
 }
+
+int sum(int n) {
+    if (n == 0) {
+        return 0;
+    }
+
+    return n + sum(n - 1);
+}
+
+int sumLoop(int n) {
+    int s = 0;
+    for (int i = 1; i <= n; i++) {
+        s = s + i;
+    }
+    return s;
+}
+int sumFormula(int n) { return n * (n + 1) / 2; }
+
+int rFactorial(int n) {}

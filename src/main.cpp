@@ -4,8 +4,6 @@
 int j = 0;
 
 int main() {
-    int n = 3;
-    funC(n);
-    return 0;
+    nestedRecursion(95);
     uint8_t eight = 10;
 }
